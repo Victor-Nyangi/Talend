@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_37-oQeleEeycB5genAa7GQ" name="Directors" dataPackage="_37-oQuleEeycB5genAa7GQ" Server="Localhost 127.0.0.1" FilePath="F:/job/Talend/csvfiles/directors.txt" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_37-oQuleEeycB5genAa7GQ" name="default" dataManager="_37-oQeleEeycB5genAa7GQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_37-oQ-leEeycB5genAa7GQ" id="_0dSJQOldEeycB5genAa7GQ" label="dierctors_schema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37-oROleEeycB5genAa7GQ" label="directorID" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_37-oReleEeycB5genAa7GQ" label="directorName" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
